@@ -14,7 +14,10 @@ public class Triangle {
         }
     }
     public static void main (String[] args){
-        int n=8;
+           System.out.println("combien de ligne ?"); // j'ai ajouté un affichage et modifié ns
+           Scanner x = new Scanner(System.in);
+            n = x.nextInt();
+        
         int espace=0;
         triangle(n,espace);
     }
